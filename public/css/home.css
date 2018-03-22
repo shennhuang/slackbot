@@ -1,0 +1,47 @@
+.tokenInput{
+    width:550px;
+}
+
+ul{
+    padding:0;
+    list-style: none;
+}
+li{
+    padding:5px;
+    display: inline;
+}
+
+.activeMethod[value=chatUpdate]{
+    opacity: 0.5;
+}
+.activeMethod[value=chatDelete]{
+    opacity: 0.5;
+}
+
+fieldset[class=chatUpdate]{
+    display: none;
+}
+fieldset[class=chatDelete]{
+    display: none;
+}
+
+legend a{
+    text-decoration: none;
+    color:black;
+}
+legend a:hover{
+    color:blue;
+}
+
+input[type=button]{
+    width:80px;
+    font-size:20px;
+}
+
+.resMsg{
+    height:30px;
+    width:100%;
+    padding:0 10px;
+    line-height: 30px;
+    display: inline-block;
+}
